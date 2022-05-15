@@ -27,4 +27,4 @@ linkedListCollection.add(0);
 
 linkedListSorter.sort();
 
-linkedListCollection.collection();
+linkedListCollection.printCollection();

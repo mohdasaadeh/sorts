@@ -65,7 +65,7 @@ export class LinkedListCollection {
     ];
   }
 
-  collection(): void {
+  printCollection(): void {
     if (!this.head) throw new Error("The linkedlist is empty");
 
     let node = this.head;
