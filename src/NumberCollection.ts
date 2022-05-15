@@ -1,5 +1,9 @@
-export class NumberCollection {
-  constructor(public collection: number[]) {}
+import { Sorter } from "./Sorter";
+
+export class NumberCollection extends Sorter {
+  constructor(public collection: number[]) {
+    super();
+  }
 
   get length(): number {
     return this.collection.length;

@@ -1,7 +1,11 @@
-export class StringCollection {
+import { Sorter } from "./Sorter";
+
+export class StringCollection extends Sorter {
   stringArray: string[];
 
   constructor(public collection: string) {
+    super();
+
     this.stringArray = collection.toLowerCase().split("");
   }
 
